@@ -1,4 +1,5 @@
-##
+# nornir-rancid_inventory
+
 This is a really basic plugin for [nornir](https://github.com/nornir-automation/nornir) to use an existing [RANCID](https://www.shrubbery.net/rancid/) installation as inventory for nornir. It will assemble the info from the various rancid router.db files, as well as basic authentication info out of .cloginrc
 
 It gets initialized in the nornir `config.yaml` passing in the path to rancid. An example structure is included in the rancid folder.
